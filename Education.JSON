@@ -1,0 +1,16 @@
+{
+  "degrees" : [
+    {
+      "school" : "University of Massachusetts - Amherst",
+      "major" : "Environmental Science",
+      "type" : "B.S.",
+      "year conferred" : "2010"
+    },
+    {
+      "school" : "Boston University",
+      "major" : "Computer Science (Metropolitan College)",
+      "type" : "M.S.",
+      "year conferred" : "2023-2024 (expected)"
+    }
+  ]
+}
