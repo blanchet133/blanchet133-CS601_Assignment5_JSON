@@ -1,26 +1,22 @@
 window.onload = function () {
   document.getElementById("button").addEventListener("click", fetchPromise);
+  const table = document.createElement("p");
+  table.setAttribute("id","p1")
+  document.getElementById("tableSpace").appendChild(table);
 }
-
-const jsonFile = require("../educationData.json");
 
 async function fetchPromise() {
   try {
     const response = await fetch("https://ptsv2.com/t/hz7b3-1658724590/post", {
-      method: 'POST',
-      body: JSON.stringify(jsonFile),
-      // headers : {
-      //   'Content-type' : 'text'
-      // }
+      method: 'GET'
     });
       if(response.ok) {
-        console.log(response);
-        //const jsonResponse = await response.json();
-        console.log(response.status);
+        const jsonResponse = await response.json();
+        document.getElementById("p1").innerHTML = JSON.stringify(jsonResponse);
       }
      } catch(error) {
       console.log("!");
       }
     }
 
-    
+

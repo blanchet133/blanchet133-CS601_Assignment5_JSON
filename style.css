@@ -1,0 +1,17 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Garamond, Serif;
+  font-size: 1.2em;
+  margin: auto;
+  padding:15px
+}
+
+h1 {
+  background-color: #7da2a9;
+  font-family: 'Abril Fatface', sans-serif;
+  font-weight: normal;
+  margin-left: 5px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #f7f7f7;
+}
